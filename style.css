@@ -2,3 +2,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.frontpage-background{
+    background: rgba(29, 29, 29, 0.7);
+}
