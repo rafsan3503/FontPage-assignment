@@ -37,22 +37,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active fs-5 text-warning aria-current="page" href="#slider">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="#">Courses</a>
+                            <a class="nav-link fs-5" href="#courses">Courses</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#success">Success</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="#">Success</a>
+                            <a class="nav-link fs-5" href="#reviews">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="#">Deal</a>
+                            <a class="nav-link fs-5" href="#register">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 " href="#">Register</a>
+                            <a class="nav-link fs-5" href="#faq">FAQ</a>
                         </li>
                         
 
@@ -69,7 +70,7 @@
         <!-- navbar end here  -->
 
         <!-- slider section start  -->
-        <section>
+        <section id="slider">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner container  ">
                     <div class="carousel-item rounded active  " style="background-image:url(images/cover/cover-1.jpg) ;">
@@ -125,14 +126,14 @@
     <!-- main section starts here  -->
     <main class="container my-5">
         <!-- courses starts here  -->
-        <section class="container">
+        <section class="container" id="courses">
             <h2 class="text-center">Discover Our Popular
             Courses</h2>
-            <p class="text-muted text-center">It is a long established fact that a reader will be distracted by the readable
-            content of a page when looking at its layout.</p>
+            <p class="text-muted text-center">Learn to code or start your career in programming with online coding and programming courses from top organisations and
+            universities on FrontPage.</p>
             <div class="container">
-                <div class="row g-4">
-                    <div class="p-3 rounded col-12 col-lg-6 d-md-flex align-items-center shadow ">
+                <div class="row g-3">
+                    <div class="rounded col-12 col-lg-6 d-md-flex align-items-center border ">
                         <div class="">
                             <img src="images/course/course-1.png" class="w-100 rounded" alt="">
                         </div>
@@ -142,7 +143,7 @@
                             <h5 class="text-primary">Price : 25$</h5>
                         </div>
                     </div>
-                    <div class="p-3 rounded col-12 col-lg-6 d-md-flex align-items-center shadow ">
+                    <div class="rounded col-12 col-lg-6 d-md-flex align-items-center border ">
                         <div class="">
                             <img src="images/course/course-2.png" class="w-100 rounded" alt="">
                         </div>
@@ -152,7 +153,7 @@
                             <h5 class="text-primary">Price : 35$</h5>
                         </div>
                     </div>
-                    <div class="p-3 rounded col-12 col-lg-6 d-md-flex align-items-center shadow ">
+                    <div class="rounded col-12 col-lg-6 d-md-flex align-items-center border ">
                         <div class="">
                             <img src="images/course/course-3.png" class="w-100 rounded" alt="">
                         </div>
@@ -162,17 +163,17 @@
                             <h5 class="text-primary">Price : 30$</h5>
                         </div>
                     </div>
-                    <div class="p-3 rounded col-12 col-lg-6 d-md-flex align-items-center shadow ">
+                    <div class="rounded col-12 col-lg-6 d-md-flex align-items-center border ">
                         <div class="">
                             <img src="images/course/course-4.png" class="w-100 rounded" alt="">
                         </div>
-                        <div class="p-3 text-md-start">
+                        <div class="text-md-start">
                             <h5>Linux Programming Course</h5>
                             <p class="text-muted">Learn Lenux Development online.</p>
                             <h5 class="text-primary">Price : 20$</h5>
                         </div>
                     </div>
-                    <div class="p-3 rounded col-12 col-lg-6 d-md-flex align-items-center shadow ">
+                    <div class="rounded col-12 col-lg-6 d-md-flex align-items-center border">
                         <div class="">
                             <img src="images/course/course-5.png" class="w-100 rounded" alt="">
                         </div>
@@ -182,7 +183,7 @@
                             <h5 class="text-primary">Price : 27$</h5>
                         </div>
                     </div>
-                    <div class="p-3 rounded col-12 col-lg-6 d-md-flex align-items-center shadow ">
+                    <div class="rounded col-12 col-lg-6 d-md-flex align-items-center border ">
                         <div class="">
                             <img src="images/course/course-6.png" class="w-100 rounded" alt="">
                         </div>
@@ -234,7 +235,7 @@
         <!-- deals ends here  -->
 
         <!-- register starts here  -->
-        <section class="p-5 bg-primary rounded my-5">
+        <section class="p-5 bg-primary rounded my-5" id="register">
             <div class="container text-center text-lg-start d-lg-flex justify-content-between align-items-center">
                 <div class="text-white">
                 <h1 class="fw-bold">Ready to join?</h1>
@@ -287,39 +288,47 @@
         <!-- register ends here  -->
 
         <!-- successful students start here  -->
-        <section class="my-5">
+        <section class="my-5" id="success">
             <div class="text-center text-md-start">
                 <h1>Meet Our Successfull
                     Students</h1>
                 <p>Scratch is a wonderful tool for understanding programming before jumping into courses in programming languages.</p>
             </div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mt-3">
-                <div class="card col">
-                    <img src="images/student/student-1.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Awlad Hossain</h5>
-                        <p class="card-muted">UIUX Designer</p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mt-3 g-3">
+                <div>
+                    <div class="card col">
+                        <img src="images/student/student-1.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Awlad Hossain</h5>
+                            <p class="card-muted">UIUX Designer</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card col">
-                    <img src="images/student/student-2.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Jannatul Islam</h5>
-                        <p class="card-muted">Motion Design</p>
+                <div>
+                    <div class="card col">
+                        <img src="images/student/student-2.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jannatul Islam</h5>
+                            <p class="card-muted">Motion Design</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card col">
-                    <img src="images/student/student-3.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Imran Hossain</h5>
-                        <p class="card-muted">Graphic Designer</p>
+                <div>
+                    <div class="card col">
+                        <img src="images/student/student-3.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Imran Hossain</h5>
+                            <p class="card-muted">Graphic Designer</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card col">
-                    <img src="images/student/student-4.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Nishi Akter</h5>
-                        <p class="card-muted">Web Developer</p>
+                <div>
+                    <div class="card col">
+                        <img src="images/student/student-4.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nishi Akter</h5>
+                            <p class="card-muted">Web Developer</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -330,7 +339,7 @@
         <!-- successful students ends here  -->
 
         <!-- feedback section starts here  -->
-        <section class="my-5">
+        <section class="my-5" id="reviews">
             <h1>Some Students Feedback</h1>
             <p>Reviews for Code Yourself! An Introduction to Programming</p>
             <div class="d-lg-flex gap-3">
@@ -390,7 +399,7 @@
         <!-- feedback section ends here  -->
 
         <!-- frequently question starts here  -->
-        <section class="container my-5 p-5">
+        <section class="container my-5 p-5" id="faq">
             <div class="text-center container my-5">
                 <h1>Frequently Asked Questions</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable
